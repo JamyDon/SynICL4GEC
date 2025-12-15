@@ -76,16 +76,27 @@ Note that *Tree Kernel* and *Polynomial Distance* are implemented in `src/tree_k
 This work is supported by the National Natural Science Foundation of China (62076008) and the Key Project of Natural Science Foundation of China (61936012).
 
 ## Citation
-If you find this repository useful, please cite our paper:
+If you find our work helpful, feel free to cite our paper:
 ```bibtex
-@misc{tang2024ungrammaticalsyntaxbased,
-      title={Ungrammatical-syntax-based In-context Example Selection for Grammatical Error Correction}, 
-      author={Chenming Tang and Fanyi Qu and Yunfang Wu},
-      year={2024},
-      eprint={2403.19283},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{tang-etal-2024-ungrammatical,
+    title = "Ungrammatical-syntax-based In-context Example Selection for Grammatical Error Correction",
+    author = "Tang, Chenming  and
+      Qu, Fanyi  and
+      Wu, Yunfang",
+    editor = "Duh, Kevin  and
+      Gomez, Helena  and
+      Bethard, Steven",
+    booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.naacl-long.99/",
+    doi = "10.18653/v1/2024.naacl-long.99",
+    pages = "1758--1770",
+    abstract = "In the era of large language models (LLMs), in-context learning (ICL) stands out as an effective prompting strategy that explores LLMs' potency across various tasks. However, applying LLMs to grammatical error correction (GEC) is still a challenging task. In this paper, we propose a novel ungrammatical-syntax-based in-context example selection strategy for GEC. Specifically, we measure similarity of sentences based on their syntactic structures with diverse algorithms, and identify optimal ICL examples sharing the most similar ill-formed syntax to the test input. Additionally, we carry out a two-stage process to further improve the quality of selection results. On benchmark English GEC datasets, empirical results show that our proposed ungrammatical-syntax-based strategies outperform commonly-used word-matching or semantics-based methods with multiple LLMs. This indicates that for a syntax-oriented task like GEC, paying more attention to syntactic information can effectively boost LLMs' performance. Our code is available at https://github.com/JamyDon/SynICL4GEC."
 }
 
 ```
+
 
