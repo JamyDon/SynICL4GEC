@@ -2,6 +2,7 @@
 
 [![arXiv](https://img.shields.io/badge/NAACL_2024_Long-99-red.svg)](https://aclanthology.org/2024.naacl-long.99/)
 [![arXiv](https://img.shields.io/badge/arXiv-2403.19283-b31b1b.svg?logo=arxiv)](https://arxiv.org/abs/2403.19283)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?logo=apache)](LICENSE)
 
 Source code for the paper **Ungrammatical-syntax-based In-context Example Selection for Grammatical Error Correction** (NAACL 2024).
 
@@ -87,3 +88,4 @@ If you find this repository useful, please cite our paper:
 }
 
 ```
+
