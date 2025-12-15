@@ -1,5 +1,8 @@
 # SynICL4GEC: Ungrammatical-syntax-based In-context Example Selection for Grammatical Error Correction
 
+[![arXiv](https://img.shields.io/badge/NAACL_2024_Long-99-red.svg)](https://aclanthology.org/2024.naacl-long.99/)
+[![arXiv](https://img.shields.io/badge/arXiv-2403.19283-b31b1b.svg?logo=arxiv)](https://arxiv.org/abs/2403.19283)
+
 Source code for the paper **Ungrammatical-syntax-based In-context Example Selection for Grammatical Error Correction** (NAACL 2024).
 
 ## Getting Started
@@ -82,4 +85,5 @@ If you find this repository useful, please cite our paper:
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
+
 ```
